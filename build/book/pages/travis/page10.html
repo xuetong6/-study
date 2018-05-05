@@ -1,0 +1,15 @@
+<div class="table-contents">
+    <h3>7. 完整的.travis.yml</h3>
+    <div>
+        <p> //通过http://lint.travis-ci.org/校验完整性</p>
+        <p>language: node_js</p>
+        <p>node_js:</p>
+        <p>- 7.7.1</p>
+        <p>after_script:</p>
+        <p>//构建完毕自动将代码分发到远程主机</p>
+        <p>- scp -o StrictHostKeyChecking=no app.js root@www.zhuji.com:/home/www/yidengtest</p>
+        <p>before_install:</p>
+        <p>//此句去掉即可 travis encrypt-file自动生成</p>
+        <p>- openssl aes-256-cbc -K $encrypted_204d80cb93e1_key -iv $encrypted_204d80cb93e1_iv</p>
+</div>
+<span class="page-number">7</span>

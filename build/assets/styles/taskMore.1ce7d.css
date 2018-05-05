@@ -1,0 +1,60 @@
+.weight-taskmore .margin_r20 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.weight-taskmore .margin_t20 {
+  margin-top: 20px;
+}
+.weight-taskmore .title span {
+  font-family: Mydance;
+}
+.weight-taskmore .actual-combat {
+  font-family: Mydance;
+  font-size: 28px;
+}
+.weight-taskmore .content {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.weight-taskmore .taskcontent {
+  padding: 5px;
+  padding-left: 20px;
+  overflow: hidden;
+  background-color: #fffff5;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.weight-taskmore .taskcontent p {
+  color: #65686b;
+  font-size: 20px;
+  height: 34px;
+  line-height: 34px;
+}
+.weight-taskmore .btn {
+  color: white;
+  margin-left: 18px;
+}
+.weight-taskmore .btn a {
+  font-family: Mydance;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+.weight-taskmore .title {
+  margin-top: 10px;
+}
+.weight-taskmore .play {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px #888888;
+  position: relative;
+  background: #000;
+  min-height: 300px;
+  background-size: 100% 100%;
+}

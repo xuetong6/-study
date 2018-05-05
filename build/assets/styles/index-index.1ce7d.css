@@ -1,0 +1,318 @@
+.widget-course {
+  padding-top: 40px;
+}
+.widget-course .gray {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
+.widget-course .js {
+  background-image: url(/assets/images/es6.aca63.png);
+}
+.widget-course .node {
+  background-image: url(/assets/images/node.be294.png);
+}
+.widget-course .engineering {
+  background-image: url(/assets/images/engineering.89a62.png);
+}
+.widget-course .performance {
+  background-image: url(/assets/images/perman.17866.png);
+}
+.widget-course .mvvm {
+  background-image: url(/assets/images/mvvm.d917d.png);
+}
+.widget-course .algorithm {
+  background-image: url(/assets/images/algorithm.2c138.png);
+}
+.widget-course .circuit {
+  background-image: url(/assets/images/circuit.112c9.png);
+}
+.widget-course .css {
+  background-image: url(/assets/images/css.2ffb6.png);
+}
+.widget-course .graphics {
+  background-image: url(/assets/images/graphics.0ae76.png);
+}
+.widget-course .safe {
+  background-image: url(/assets/images/safe.cff10.png);
+}
+.widget-course .bat {
+  background-image: url(/assets/images/bat.8ee77.png);
+}
+.widget-course .a1 {
+  background-image: url(/assets/images/1.cc2e3.png);
+}
+.widget-course .a2 {
+  background-image: url(/assets/images/2.fe58f.png);
+}
+.widget-course .a3 {
+  background-image: url(/assets/images/3.83c82.png);
+}
+.widget-course .a4 {
+  background-image: url(/assets/images/4.1f64c.png);
+}
+.widget-course .a5 {
+  background-image: url(/assets/images/5.c1caf.png);
+}
+.widget-course .a6 {
+  background-image: url(/assets/images/6.8d5cd.png);
+}
+.widget-course .a7 {
+  background-image: url(/assets/images/7.29a1c.png);
+}
+.widget-course .a8 {
+  background-image: url(/assets/images/8.6a1ea.png);
+}
+.widget-course .a9 {
+  background-image: url(/assets/images/9.a8fb5.png);
+}
+.widget-course .a10 {
+  background-image: url(/assets/images/10.3aecb.png);
+}
+.widget-course .a11 {
+  background-image: url(/assets/images/11.5ef52.png);
+}
+.widget-course .a12 {
+  background-image: url(/assets/images/12.3a871.png);
+}
+.widget-course .a13 {
+  background-image: url(/assets/images/13.19148.png);
+}
+.widget-course .a14 {
+  background-image: url(/assets/images/14.ef748.png);
+}
+.widget-course .a15 {
+  background-image: url(/assets/images/15.50069.png);
+}
+.widget-course .a16 {
+  background-image: url(/assets/images/16.4a769.png);
+}
+.widget-course .category {
+  background-repeat: no-repeat;
+  background-position: 6px 8px;
+  background-size: 335px;
+  height: 274px;
+  width: 357px;
+}
+.widget-course .category .course_box {
+  height: 100%;
+  background-image: url(/assets/images/course_frame.4ed31.png);
+  position: relative;
+}
+.widget-course .category.category_left {
+  float: left;
+}
+.widget-course .category.category_center {
+  margin: 0 auto;
+}
+.widget-course .category.category_right {
+  float: right;
+}
+.widget-course .category .course_info {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+}
+.widget-course .category .course_info .btn-group {
+  margin-top: 15px;
+}
+.widget-course .list {
+  overflow: hidden;
+}
+.widget-course .item {
+  float: left;
+  width: 33.33%;
+  margin: 10px 0;
+}
+.widget-exam {
+  margin-top: 25px;
+}
+.widget-exam .exam-content:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.widget-exam .exam-content .task a {
+  color: #A09EA4;
+  height: 300px;
+  width: 100px;
+  display: inline-block;
+}
+.widget-exam .exam-content .task {
+  float: left;
+  margin-left: 55px;
+  width: 200px;
+  height: 200px;
+  background: url(/assets/images/es.f14e8.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  line-height: 192px;
+  font-size: 40px;
+  color: #A09EA4 !important;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  margin-top: 35px;
+  font-family: "Comic Sans MS";
+}
+.widget-exam .exam-content .task .task-title {
+  position: absolute;
+  top: -18px;
+  left: 30%;
+}
+.widget-exam .exam-content .task-score {
+  position: absolute;
+  bottom: -30px;
+  left: 50px;
+  /*color: #f29743;*/
+  height: 82px;
+  width: 60px;
+  border-bottom: 1px solid #d4d4d4;
+  line-height: 125px !important;
+}
+.widget-exam .exam-content .active {
+  background-image: url(/assets/images/eicon.f66cd.png) !important;
+  color: #4773b0 !important;
+}
+.widget-exam .exam-content .active a {
+  color: #4773b0 !important;
+}
+.widget-exam .exam-content .active:before {
+  content: "";
+  background: url(/assets/images/edone.1a37b.png);
+  background-size: 100px;
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  left: -34px;
+  top: 80px;
+}
+.widget-task {
+  margin-top: 50px;
+}
+.widget-task .task-content:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.widget-task .task-content .task {
+  float: left;
+  font-family: "Comic Sans MS";
+  margin-left: 55px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url(/assets/images/cup.f46b1.png) #b7b7b7;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  line-height: 192px;
+  font-size: 40px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  margin-top: 35px;
+}
+.widget-task .task-content .active {
+  background-color: #99ccff !important;
+}
+.widget-task .task-content .active:before {
+  content: "";
+  background: url(/assets/images/done.4cf2f.png);
+  background-size: 100px;
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  left: -34px;
+  top: 80px;
+}
+.widget-task .task-content a {
+  text-decoration: none;
+}
+.widget-task {
+  margin-top: 50px;
+}
+.widget-task .task-content:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.widget-task .task-content .task {
+  float: left;
+  font-family: "Comic Sans MS";
+  margin-left: 55px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url(/assets/images/cup.f46b1.png) #b7b7b7;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  line-height: 192px;
+  font-size: 40px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  margin-top: 35px;
+}
+.widget-task .task-content .active {
+  background-color: #99ccff !important;
+}
+.widget-task .task-content .active:before {
+  content: "";
+  background: url(/assets/images/done.4cf2f.png);
+  background-size: 100px;
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  left: -34px;
+  top: 80px;
+}
+.widget-task .task-content a {
+  text-decoration: none;
+}
+.widget-tools .tips {
+  height: 40px;
+  line-height: 40px;
+  opacity: 0.8;
+  font-size: 17px;
+  margin-top: 20px;
+  padding-left: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  color: #fff;
+  font-family: Mydance;
+  background-image: url(/assets/images/bg.5c798.png);
+}
+.widget-tools .tip-text {
+  margin-left: 5px;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+}
+.widget-tools .tip-icon {
+  height: 36px;
+  width: 36px;
+  background-image: url(/assets/images/speaker.5122f.png);
+  background-size: 36px 36px;
+  display: inline-block;
+  margin-top: 2px;
+}

@@ -1,0 +1,108 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "京城一灯学习系统",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/lgwebdream/yd-vue-kernel.git",
+    "type": "git"
+  },
+  "scripts": {
+    "start": "node build/server.js",
+    "test": "node ./test/mochaRunner.js",
+    "testapi": "node ./tests/mochaRunner.js",
+    "build": "gulp && webpack",
+    "release": "gulp &&npm run  webpackprod",
+    "online": "gulp && yarn run webpackprod",
+    "webpackdev": "better-npm-run webpack:dev",
+    "webpackprod": "better-npm-run webpack:prod",
+    "pm2": "node_modules/.bin/pm2 start pm2.json"
+  },
+  "betterScripts": {
+    "webpack:dev": {
+      "command": "webpack --progress --colors",
+      "env": {
+        "NODE_ENV": "dev"
+      }
+    },
+    "webpack:prod": {
+      "command": "webpack --progress --colors",
+      "env": {
+        "NODE_ENV": "prod"
+      }
+    }
+  },
+  "author": "yuanzhijia <495725428@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "better-npm-run": "^0.1.0",
+    "copy-webpack-plugin": "^4.3.0",
+    "css-loader": "^0.28.0",
+    "eslint": "^4.13.1",
+    "eslint-loader": "^1.9.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "graceful-fs": "^4.1.11",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-rollup": "^2.15.0",
+    "gulp-watch": "^4.3.11",
+    "html-webpack-plugin": "^2.28.0",
+    "imagemin-webpack-plugin": "^1.5.2",
+    "less": "^2.7.2",
+    "mocha": "^4.0.1",
+    "mochawesome": "^3.0.0",
+    "postcss": "^5.2.17",
+    "postcss-apply": "^0.8.0",
+    "postcss-css-variables": "^0.7.0",
+    "postcss-cssnext": "^2.11.0",
+    "postcss-custom-properties": "^5.0.2",
+    "postcss-import": "^11.0.0",
+    "postcss-loader": "^1.3.3",
+    "precss": "^1.4.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "style-loader": "^0.16.1",
+    "stylefmt": "^6.0.0",
+    "stylefmt-loader": "^1.2.3",
+    "stylelint": "^8.4.0",
+    "stylelint-config-standard": "^18.0.0",
+    "stylelint-webpack-plugin": "^0.9.0",
+    "webpack": "^3.10.0",
+    "webpack-livereload-plugin": "^0.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel-core": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "co": "^4.6.0",
+    "cookie": "^0.3.1",
+    "jquery": "^3.2.1",
+    "koa": "^2.2.0",
+    "koa-body": "^2.0.1",
+    "koa-convert": "^1.2.0",
+    "koa-log4": "2",
+    "koa-redis-pool": "^0.4.0",
+    "koa-session2": "babel",
+    "koa-simple-router": "^0.2.0",
+    "koa-static": "^3.0.0",
+    "koa-swig": "^2.2.1",
+    "less-loader": "^4.0.3",
+    "lodash": "^4.17.4",
+    "log4js": "^2.4.1",
+    "pm2": "^2.9.1",
+    "request-promise": "^4.2.0",
+    "selenium-webdriver": "^3.4.0",
+    "supertest": "^3.0.0",
+    "supervisor": "^0.12.0",
+    "vue": "^2.3.0"
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="http://www.yidengxuetang.com/static/common/static/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="http://www.yidengxuetang.com/static/common/static/images/favicon.ico"> 
+    <link rel="stylesheet" type="text/css" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/book/css/magazine.css" />
+    <script type="text/javascript" src="/book/lib/jquery.min.1.7.js"></script>
+    <script type="text/javascript" src="/book/lib/jquery-ui-1.8.20.custom.min.js"></script>
+    <script type="text/javascript" src="/book/lib/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="/book/lib/modernizr.2.5.3.min.js"></script>
+    <script type="text/javascript" src="/book/lib/hash.js"></script>
+<!--      <script type="text/javascript" src="lib/docs.js"></script>
+ -->
+
+
+    {%block styles%} {% endblock %}
+</head>
+
+<body>
+    <div class="container-fluid">
+           {% include "../../../widget/header/header.html" %} 
+            {% block content %} 
+            {% endblock %}
+            {% include "../../../widget/footer/footer.html" %} 
+    </div>
+
+    <script src="https://cdn.bootcss.com/vue/2.3.0/vue.min.js"></script>
+    <script src="https://cdn.bootcss.com/vue-resource/1.3.1/vue-resource.min.js"></script>
+    <script src="https://cdn.bootcss.com/vuex/2.3.1/vuex.min.js"></script>
+    <script type="text/javascript">
+        Vue.use(VueResource);
+    </script>
+    {%block script%} {% endblock %}
+</body>
+
+</html>

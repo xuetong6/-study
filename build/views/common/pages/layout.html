@@ -1,0 +1,38 @@
+<!DOCTYPE html><html><head><title>{% block title %}{% endblock %}</title><link rel="shortcut icon" href="http://www.yidengxuetang.com/static/common/static/images/favicon.ico" type="image/x-icon"><link rel="icon" href="http://www.yidengxuetang.com/static/common/static/images/favicon.ico"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><link rel="shortcut icon" href="http://www.yidengxuetang.com/static/common/static/images/favicon.ico" type="image/x-icon"><link rel="icon" href="http://www.yidengxuetang.com/static/common/static/images/favicon.ico"><link rel="stylesheet" type="text/css" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css">{% block styles %} {% endblock %}</head><body><div class="container-fluid">{% include "../../../widget/header/header.html" %} {% block content %} {% endblock %} {% include "../../../widget/footer/footer.html" %}</div><script src="http://cdn.bootcss.com/vue/2.3.0/vue.min.js"></script><script src="http://cdn.bootcss.com/vue-resource/1.3.1/vue-resource.min.js"></script><script src="http://cdn.bootcss.com/vuex/2.3.1/vuex.min.js"></script><script id type="text/javascript" charset="utf-8" src="http://yuntv.letv.com/player/vod/bcloud.js"></script><script type="text/javascript">Vue.use(VueResource);
+    // window.Libs = {
+    //     InitPlayerWH: function(pId) {
+    //         var pNode = document.getElementById(pId).parentNode,
+    //             pt, pb, dWidth = pNode.clientWidth,
+    //             pHeight = pNode.clientHeight,
+    //             dHeight = this.ReCallHeight(pHeight, dWidth, pNode);
+    //         return {
+    //             "dWidth": dWidth,
+    //             "dHeight": dHeight
+    //         };
+    //     },
+    //     ReCallHeight: function(h, w, a) {
+    //         try {
+    //             pt = window.getComputedStyle(a, null).paddingTop;
+    //             pb = window.getComputedStyle(a, null).paddingBottom;
+    //         } catch (e) {
+    //             pt = a.currentStyle.paddingTop;
+    //             pb = a.currentStyle.paddingBottom;
+    //         }
+    //         h = h - parseInt(pt) - parseInt(pb);
+    //         if (h && (typeof h == "number") && h == h && h > 0) {
+    //             return h;
+    //         } else {
+    //             var ua = navigator.userAgent.toLowerCase();
+    //             var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+    //                 isIphone = !ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+    //                 isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+    //                 isMobile = isIphone || isAndroid;
+    //             if (isMobile) {
+    //                 return w * 9 / 16;
+    //             } else {
+    //                 return (w * 9 / 16) + 36;
+    //             }
+    //         }
+    //     }
+    // };
+    //Vue.use(Vuex);</script>{% block script %} {% endblock %}</body></html>

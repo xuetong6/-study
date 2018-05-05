@@ -1,0 +1,55 @@
+:root {
+  --cupSize: 200px;
+  --cupBeforeSize: 100px;
+}
+
+.widget-task {
+  margin-top: 50px;
+
+  .task-content::after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .task {
+    float: left;
+    font-family: "Comic Sans MS";
+    margin-left: 55px;
+    width: var(--cupSize);
+    height: var(--cupSize);
+    border-radius: 50%;
+    background: url(images/cup.png) #b7b7b7;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    line-height: 192px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    margin-top: 35px;
+  }
+
+  .active {
+    background-color: #9cf !important;
+  }
+
+  .active::before {
+    content: "";
+    background: url(images/done.png);
+    background-size: var(--cupBeforeSize);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: var(--cupBeforeSize);
+    height: var(--cupBeforeSize);
+    left: -34px;
+    top: 80px;
+  }
+}

@@ -1,0 +1,172 @@
+.widget-bookdesk .bookdesk-con {
+  width: 850px;
+  margin: 0px auto;
+}
+.widget-bookdesk .book-desk {
+  width: 820px;
+}
+.widget-bookdesk .bookshelf .shelf {
+  width: 100%;
+  margin-top: 45px;
+}
+.widget-bookdesk .bookshelf .shelf .row-1 {
+  position: relative;
+  width: 100%;
+  margin-left: 33px;
+  margin-top: 115px;
+}
+.widget-bookdesk .bookshelf .shelf .row-1:after,
+.widget-bookdesk .bookshelf .shelf .row-2:after {
+  background: url(/assets/images/wall-bookshelf.93284.png);
+  background-size: 850px 197px;
+  background-repeat: repeat-x;
+  background-position: bottom left;
+  width: 850px;
+  height: 220px;
+  display: block;
+  content: "";
+  margin-left: -38px;
+}
+.widget-bookdesk .bookshelf .shelf .row-2 {
+  position: relative;
+  margin-top: 40px;
+  height: 164px;
+  width: 360px;
+  margin-left: 33px;
+}
+.widget-bookdesk .bookshelf .shelf .loc {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 15px;
+  top: -30px;
+}
+.widget-bookdesk .bookshelf .shelf .loc > div {
+  width: 15%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.widget-bookdesk .bookshelf .suggestion {
+  font: 12px 'District Thin', helvetica, arial;
+  color: #999;
+  text-align: center;
+  line-height: 40px;
+}
+@-webkit-keyframes swing {
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    -webkit-transform-origin: top center;
+  }
+  20% {
+    -webkit-transform: rotate(15deg);
+  }
+  40% {
+    -webkit-transform: rotate(-10deg);
+  }
+  60% {
+    -webkit-transform: rotate(5deg);
+  }
+  80% {
+    -webkit-transform: rotate(-5deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+@-moz-keyframes swing {
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    -moz-transform-origin: top center;
+  }
+  20% {
+    -moz-transform: rotate(15deg);
+  }
+  40% {
+    -moz-transform: rotate(-10deg);
+  }
+  60% {
+    -moz-transform: rotate(5deg);
+  }
+  80% {
+    -moz-transform: rotate(-5deg);
+  }
+  100% {
+    -moz-transform: rotate(0deg);
+  }
+}
+.widget-bookdesk .bookshelf .sample,
+.widget-bookdesk .bookshelf-row .sample {
+  -webkit-animation: swing 1s .2s ease both;
+  -moz-animation: swing 1s .2s ease both;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  /*-webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    -ms-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    -webkit-transition: -webkit-transform 0.1s;
+    -webkit-transform: translate(0, 0);
+    -moz-transition: -moz-transform 0.1s;
+    -moz-transform: translate(0, 0);
+    -ms-transition: -ms-transform 0.1s;
+    -ms-transform: translate(0, 0);
+    -o-transition: -o-transform 0.1s;
+    -o-transform: translate(0, 0);
+    transition: transform 0.1s;
+    transform: translate(0, 0);*/
+}
+.widget-bookdesk .sample .loader {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 50%;
+  left: 50%;
+}
+.widget-bookdesk .bookshelf .shelf .hover,
+.widget-bookdesk .bookshelf-row .hover,
+.widget-bookdesk .bookshelf .shelf .loading {
+  z-index: 2;
+  cursor: none;
+  background-color: white;
+  -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(0, -5px, 0);
+  -moz-transform: scale3d(1.1, 1.1, 1) translate3d(0, -5px, 0);
+  -ms-transform: scale3d(1.1, 1.1, 1) translate3d(0, -5px, 0);
+  -o-transform: scale3d(1.1, 1.1, 1) translate3d(0, -5px, 0);
+  transform: scale3d(1.1, 1.1, 1) translate3d(0, -5px, 0);
+}
+.widget-bookdesk .bookshelf .thumb5,
+.widget-bookdesk .bookshelf-row .thumb5 {
+  display: block;
+  width: 120px;
+  height: 120px;
+}
+.widget-bookdesk .bookshelf .thumb6,
+.widget-bookdesk .bookshelf-row .thumb6 {
+  display: block;
+  width: 90px;
+  height: 115px;
+}
+.widget-bookdesk .desk-box {
+  clear: both;
+}
+.widget-bookdesk .bookshelf .shelf .hover,
+.widget-bookdesk .bookshelf-row .hover,
+.widget-bookdesk .bookshelf .shelf .loading {
+  z-index: 2;
+  cursor: none;
+  background-color: white;
+  -webkit-transform: scale3d(1.1, 1.1, 1) translate3d(0, -5px, 0);
+  -moz-transform: scale3d(1.1, 1.1, 1) translate3d(0, -5px, 0);
+  -ms-transform: scale3d(1.1, 1.1, 1) translate3d(0, -5px, 0);
+  -o-transform: scale3d(1.1, 1.1, 1) translate3d(0, -5px, 0);
+}

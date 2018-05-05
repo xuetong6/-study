@@ -1,0 +1,10 @@
+<div class="table-contents">
+    <h1>代码拆分 -分离第三方库(vendor)</h1>
+    <div>
+        <p style="text-indent: 33px;">
+            一个典型的应用程序会使用第三方框架、工具库。这些库一般使用特定的版本并且其代码不经常改变。然而，应用本身的代码会频繁改变。我们希望不管应用本身的代码如何改变，vendor 文件的 hash 始终恒定不变。只有将vendor 和应用代码的 bundle 分离时，才能实现这一点。</p>
+        <p>通过为 momentJS(一种常用的时间格式化库) 添加一个单独的入口点并将其命名为 vendor为例。</p>
+         <img style="width:200px;height: 113px;" src="./images/webpack_6.png">
+    </div>
+</div>
+<span class="page-number">7</span>

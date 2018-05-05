@@ -1,0 +1,146 @@
+:root {
+  --deskwith: 850;
+  --relawith: 100%;
+  --bgImage: {
+    background: url(./images/wall-bookshelf.png);
+    background-size: 850px 197px;
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    width: calc(var(--deskwith) * 1px);
+    height: 220px;
+    display: block;
+    content: "";
+    margin-left: -38px;
+  }
+}
+
+.widget-bookdesk .bookdesk-con {
+  width: calc(var(--deskwith) * 1px);
+  margin: 0 auto;
+}
+
+.book-desk {
+  width: calc((var(--deskwith) - 30) * 1px);
+  margin: 0 auto;
+}
+
+.bookshelf .shelf {
+  width: var(--relawith);
+  margin-top: 45px;
+}
+
+.bookshelf .shelf .row-1 {
+  position: relative;
+  width: var(--relawith);
+  margin-left: 33px;
+  margin-top: 115px;
+}
+
+.bookshelf .shelf .row-1::after,
+.bookshelf .shelf .row-2::after {
+  @apply --bgImage;
+}
+
+.bookshelf .shelf .row-2 {
+  position: relative;
+  margin-top: 40px;
+  height: 164px;
+  width: 360px;
+  margin-left: 33px;
+}
+
+.bookshelf .shelf .loc {
+  position: absolute;
+  bottom: 0;
+  width: var(--relawith);
+  left: 15px;
+  top: -30px;
+}
+
+.bookshelf .shelf .loc > div {
+  width: 15%;
+  height: var(--relawith);
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+.bookshelf .suggestion {
+  font: 12px 'District Thin', helvetica, arial;
+  color: #999;
+  text-align: center;
+  line-height: 40px;
+}
+
+@-moz-keyframes swing {
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    transform-origin: top center;
+  }
+
+  20% {
+    transform: rotate(15deg);
+  }
+
+  40% {
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    transform: rotate(5deg);
+  }
+
+  80% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.bookshelf .sample,
+.bookshelf-row .sample {
+  animation: swing 1s 0.2s ease both;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.sample .loader {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 50%;
+  left: 50%;
+}
+
+.bookshelf-row .hover,
+.bookshelf .shelf .hover,
+.bookshelf .shelf .loading {
+  z-index: 2;
+  cursor: none;
+  background-color: white;
+  transform: scale3d(1.1, 1.1, 1) translate3d(0, -5px, 0);
+}
+
+.bookshelf .thumb5,
+.bookshelf-row .thumb5 {
+  display: block;
+  width: 120px;
+  height: 120px;
+}
+
+.bookshelf .thumb6,
+.bookshelf-row .thumb6 {
+  display: block;
+  width: 90px;
+  height: 115px;
+}
+
+.desk-box {
+  clear: both;
+}

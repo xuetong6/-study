@@ -1,0 +1,13 @@
+<div class="table-contents">
+    <h3>4. 安装travis客户端 并登陆生成加密文件</h3>
+    <div>
+        <p style="">gem install travis</p>
+        <p style="">//自动登陆travis</p>
+        <p style="">travis login --auto</p>
+        <p style="">//拷贝私钥到你的项目目录</p>
+        <p style="">cp ~/.ssh/id_rsa  项目目录/.travis/</p>
+        <p style="">//生成秘钥文件id_rsa.enc提交到服务器</p>
+        <p style="">travis encrypt-file id_rsa --add</p>
+    </div>
+</div>
+<span class="page-number">5</span>

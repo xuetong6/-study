@@ -1,0 +1,24 @@
+[2018-04-21T14:37:42.619] [INFO] index - server started
+[2018-04-21T14:37:53.339] [ERROR] index - { Error: ENOENT: no such file or directory, open '/Users/yuanzhijia/Desktop/Work/ydlearn/ydweb/build/views/bookDesk/pages/bookDesk.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/yuanzhijia/Desktop/Work/ydlearn/ydweb/build/views/bookDesk/pages/bookDesk.html' }
+[2018-04-21T14:37:58.725] [ERROR] index - { Error: ENOENT: no such file or directory, open '/Users/yuanzhijia/Desktop/Work/ydlearn/ydweb/build/views/bookDesk/pages/bookDesk.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/yuanzhijia/Desktop/Work/ydlearn/ydweb/build/views/bookDesk/pages/bookDesk.html' }
+[2018-04-21T14:40:48.233] [ERROR] index - { Error: ENOENT: no such file or directory, open '/Users/yuanzhijia/Desktop/Work/ydlearn/ydweb/build/views/taskMore/pages/taskMore.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/yuanzhijia/Desktop/Work/ydlearn/ydweb/build/views/taskMore/pages/taskMore.html' }
+[2018-04-21T14:59:06.783] [INFO] index - server started
+[2018-04-21T14:59:12.954] [ERROR] index - { Error: ENOENT: no such file or directory, open '/Users/yuanzhijia/Desktop/Work/ydlearn/ydweb/build/views/bookDesk/pages/bookDesk.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/yuanzhijia/Desktop/Work/ydlearn/ydweb/build/views/bookDesk/pages/bookDesk.html' }
+[2018-04-21T15:00:55.296] [INFO] index - server started
+[2018-04-21T15:02:15.641] [INFO] index - server started

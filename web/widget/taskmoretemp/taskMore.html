@@ -1,0 +1,40 @@
+<div class="weight-taskmore w128">
+    <h1 class="title">
+        <span>[[taskdata.title]]</span>
+    </h1>
+    <div class="content">
+        <div class="downloads">
+            <img src="" class="margin_r20 margin_l20" id="write">
+            <span class="actual-combat">需求描述</span>
+        </div>
+        <div class="taskcontent" id="taskinfos" v-html="desc"  v-cloak>
+            {{desc}}
+        </div>
+    </div>
+    <div class="title">
+        <p class="course_outline">实战讲解</p>
+        <div class="spliter"></div>
+    </div>
+    <div class="play">
+        <div id="explain"></div>
+    </div>
+    <div class="title">
+        <p class="course_outline">代码下载</p>
+        <div class="spliter"></div>
+    </div>
+    <!-- <div class="downloads">
+    <img src="" class="margin_r20" id="download">
+    <span class="actual-combat">代码下载</span>
+</div>
+ -->
+    <div style="margin-top:5px;">
+        <button class="btn btn-info"><a href="[[taskdata.courceCode]]">点击下载</a></button>
+    </div>
+    <div class="title">
+        <p class="course_outline">试卷讲解</p>
+        <div class="spliter"></div>
+    </div>
+    <div class="play">
+      <div id="standard"></div>
+    </div>
+</div>
